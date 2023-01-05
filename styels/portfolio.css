@@ -25,7 +25,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 .nav-title{
     width: 121px;
@@ -106,10 +106,6 @@ main{
 .info-main{
     display: flex;
     justify-content: space-around;
-
-}
-.about-info{
-
 }
 .info-title{
     font-size: 20px;
@@ -120,8 +116,106 @@ main{
     font-weight: 700;
     font-size: 20px;
     color: #474747;
-
+}
+/* what i do styels */
+.what-i-do{  margin-top: 130px;
 
 }
 
+/* skills styels */
+.main-skill{
+    display: flex;
+    gap: 24px;
 
+}
+
+.skil{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-details{
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+section{
+    margin-top: 130px;
+}
+
+/* resume  */
+
+.all-resume{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-iteam{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.resume-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+.details{
+    color: #757575;
+
+}
+
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* contract */
+
+.connect{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.lets{
+    text-align: left;
+}
+
+.connect input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+
+.connect a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+.pera{
+    margin-bottom: 20px;
+}
